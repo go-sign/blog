@@ -1,0 +1,75 @@
+/*
+Theme Name: gosign
+Theme URI: https://go-sign.info/
+Author: Gosign
+Author URI: https://go-sign.info/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: gosign
+Tags: Gosign
+*/
+
+.hero.is-fullheight {
+    min-height: 0;
+}
+
+.breadcrumb:not(:last-child) {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.site-title {
+    color: #363636;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.125;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.archive-title {
+    color: #363636;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.125;
+    margin-bottom: 1rem;
+}
+
+.entry-title {
+    color: #363636;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.125;
+    margin-bottom: 1rem;
+}
+
+.entry-meta {
+    margin-bottom: 0.5rem;
+}
+
+.entry-date {
+    margin-right: 0.5rem;
+}
+
+.entry-excerpt {
+    margin-bottom: 1rem;
+}
+
+.entry-content {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.entry-content p {
+    margin-bottom: 1rem;
+}
+
+.tag-category a {
+    color: #ffffff;
+}
+
+.tag-tag a {
+    color: #4a4a4a;
+}
