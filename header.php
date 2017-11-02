@@ -26,7 +26,7 @@
                     <a href="https://go-sign.info/#about" class="nav-item">About</a>
                     <a href="https://go-sign.info/#works" class="nav-item">Works</a>
                     <a href="https://go-sign.info/#profile" class="nav-item">Profile</a>
-                    <a href="/" class="nav-item">News</a>
+                    <a href="/" class="nav-item">Information</a>
                     <a href="https://go-sign.info/#contact" class="nav-item">Contact</a>
                 </div>
             </div>
