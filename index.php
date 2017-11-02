@@ -17,7 +17,7 @@
                     <span class="entry-date">
                     <span class="icon is-small"><i class="fa fa-pencil"></i></span><time itemprop="datePublished" datetime="<?php the_time( 'Y-m-d' ) ;?>"><?php the_time( 'Y/m/d' ) ;?></time>
                     </span>
-                    <span class="tag is-info tag-category"><?php the_category(' '); ?></span>
+                    <span class="tag tag-category <?php echo gs_get_category_class();?>"><?php the_category(' '); ?></span>
                     <?php the_tags( '<span class="tag is-light tag-tag">', "</span>\n<span class=\"tag is-light tag-tag\">", '</span>'); ?>
                 </div>
                 <div class="entry-excerpt">

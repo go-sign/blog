@@ -113,3 +113,18 @@ function gs_pagenate(){
     $str .= '</nav>';
     echo $str;
 }
+
+/**
+ * Get tag labels color of category
+ */
+function gs_get_category_class() {
+    $category = get_the_category(); 
+    if ( $category[0] ) {
+        if ( $category[0]->slug == 'news' ) {
+            return 'is-info';
+        } else if ( $category[0]->slug == 'work' ) {
+            return 'is-dark';
+        }
+    }
+    return 'is-info';
+}
