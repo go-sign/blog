@@ -17,7 +17,8 @@ function gs_scripts() {
     wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' );
     wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Montserrat:700' );
     wp_enqueue_style( 'gosign-site', get_template_directory_uri() . '/site.css' );
-	wp_enqueue_style( 'gosign-style', get_stylesheet_uri() );
+    wp_enqueue_style( 'gosign-style', get_stylesheet_uri() );
+    wp_enqueue_script( 'gosign-bundle', get_template_directory_uri() . '/bundle.js', array(), false, true );
 }
 add_action( 'wp_enqueue_scripts', 'gs_scripts' );
 
