@@ -66,6 +66,10 @@ Tags: Gosign
     margin-bottom: 1rem;
 }
 
+.entry-content article {
+    margin-top: 40px;
+}
+
 .tag-category a {
     color: #ffffff;
 }
