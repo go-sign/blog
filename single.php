@@ -20,6 +20,7 @@
     
                     <div class="entry-content content">
                         <?php the_content(); ?>
+                        <?php get_template_part( 'cta' ); ?>
                     </div>
                 </div>
     
